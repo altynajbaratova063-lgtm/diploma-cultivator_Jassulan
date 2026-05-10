@@ -31,7 +31,7 @@ with st.sidebar:
 
 # 3. Физикалық және Экономикалық есептеулер
 a_meters = a / 100  # см-ді метрге айналдыру
-R_kn = k * (a_meters * 10) * B  
+R_kn = k * a_meters * B  
 R_n = R_kn * 1000
 
 eta_t = 0.7  
